@@ -1,0 +1,56 @@
+\select@language {ngerman}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a viewpoint direction component \relax }}{11}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces a viewpoint direction component \relax }}{11}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces VFH histogram \relax }}{12}{figure.caption.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces support vector machine \relax }}{15}{figure.caption.7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces support vector machine \relax }}{15}{figure.caption.8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces support vector machine \relax }}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces support vector machine \relax }}{16}{figure.caption.10}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces support vector machine \relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces support vector machine \relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Random forest Classifier \relax }}{19}{figure.caption.13}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Simple figure to explain KNN algorithm\relax }}{21}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A basic ROC graph showing five discrete classifiers.\relax }}{25}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Splitting dataset in 5-fold cross validation. Reproduced from\relax }}{26}{figure.caption.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces UIMA Framework Core\relax }}{28}{figure.caption.18}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of pipeline execution in Robosherlock\relax }}{29}{figure.caption.19}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Top level structure of MongoDB and relation bewteen collections taken from \cite {Storing}.\relax }}{30}{figure.caption.20}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The cas collection\relax }}{31}{figure.caption.21}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The scene collection\relax }}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Structure of identifiables in a scene document \relax }}{33}{figure.caption.23}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Structure of identifiables in a scene document \relax }}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Structure of identifiables in a scene document \relax }}{35}{figure.caption.25}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Process of trained model creation\relax }}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Flow chart of object hypothesis model creation\relax }}{38}{figure.caption.28}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Architecture of the developed perception system \relax }}{39}{figure.caption.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Architecture of the developed perception system \relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Architecture of the developed perception system \relax }}{44}{figure.caption.32}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Simple block diagram to describe the functionalities of feature extractor tool \relax }}{45}{figure.caption.33}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Simple block diagram to describe the functionalities of classifier trainer tool \relax }}{46}{figure.caption.34}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Simple block diagram to describe the functionalities of classifier evaluator tool \relax }}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Flow diagram to extract feature of generated object hypothesis from row sensor data\relax }}{49}{figure.caption.36}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Flow diagram to calculate pipe resistance and update square of the system matrix\relax }}{50}{figure.caption.37}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Extracting feature tool module\relax }}{51}{figure.caption.38}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces ModelTrainer tool module\relax }}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces classifier annotator evaluation module tool module\relax }}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Simple block diagram to describe the functionalities of feature extractor tool \relax }}{53}{figure.caption.41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Object hierarchy in the dataset as a subset of the ImageNet category. Taken from \cite {dataset}\relax }}{55}{figure.caption.42}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Objects from the RGB-D object dataset. Taken from \cite {lai2011large}\relax }}{56}{figure.caption.43}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Categorization of WRGBD dataset\relax }}{57}{figure.caption.44}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {english}

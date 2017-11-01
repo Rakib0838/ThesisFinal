@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: boss.aux
+The style file: babplain.bst
+Database file #1: literatur.bib
+Warning--I didn't find a database entry for "marton2013ensembles"
+Warning--I didn't find a database entry for "Storing"
+Warning--I didn't find a database entry for "dataset"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in aldoma2011cad
+You've used 12 entries,
+            2788 wiz_defined-function locations,
+            705 strings with 9003 characters,
+and the built_in function-call counts, 7624 in all, are:
+= -- 629
+> -- 371
+< -- 8
++ -- 150
+- -- 134
+* -- 927
+:= -- 996
+add.period$ -- 30
+call.type$ -- 12
+change.case$ -- 101
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 402
+empty$ -- 638
+format.name$ -- 268
+if$ -- 1565
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 16
+newline$ -- 64
+num.names$ -- 24
+pop$ -- 158
+preamble$ -- 1
+purify$ -- 90
+quote$ -- 0
+skip$ -- 188
+stack$ -- 0
+substring$ -- 337
+swap$ -- 233
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 46
+warning$ -- 1
+while$ -- 49
+width$ -- 14
+write$ -- 139
+(There were 4 warnings)

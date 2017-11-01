@@ -1,0 +1,87 @@
+\usepackage[pdfborder={0 0 0}]{hyperref}    % Hyperlinks/Metadaten - unbedingt als letztes Paket einbinden!
+
+\ifx\pagelayout\pglay
+  \KOMAoptions{twoside}
+\fi
+
+%========================================================================================%
+%========================================================================================%
+
+\graphicspath{{bilder/}}  % Suchpfad für Bilder
+
+\setlength{\TPHorizModule}{1cm}  % Einheit für absolute horiz. Positionierung definineren
+\setlength{\TPVertModule}{1cm}  % Einheit für absolute vert. Positionierung definineren
+\renewcommand{\chapterpagestyle}{scrheadings}  % Kopf- und Fußzeile auch auf Kapitelanfangsseiten
+
+
+%===========================================%
+% Kopf- und Fußzeile formatieren            %
+%-------------------------------------------%
+
+\pagestyle{scrheadings}
+  \automark[section]{chapter}
+  \definecolor{iat_red}{rgb}{0.8,0,0}
+  \setheadsepline{1.2mm}[\color{iat_red}]
+
+\ihead{\textsf{\headmark}}
+\chead{\textsf{}}
+\ohead{\includegraphics[width=1.14cm]{iat_logo}}
+
+\ifoot[]{\textsf{}}
+\cfoot[]{\textsf{}}
+\ofoot[\textsf{\pagemark}]{\textsf{\pagemark}}
+
+%-------------------------------------------%
+% Kopf- und Fußzeilenformatierung Ende      %
+%===========================================%
+
+
+
+%========================================================================================%
+%========================================================================================%
+
+
+
+%===========================================%
+% Benutzerbefehle (Neudefinitionen)         %
+%-------------------------------------------%
+
+\newcommand{\zB}{\mbox{z.\,B.}\xspace}
+\renewcommand{\dh}{\mbox{d.\,h.}\xspace}
+\newcommand{\Dh}{\mbox{D.\,h.}\xspace}
+\newcommand{\tbs}{\textbackslash}           % Backslash einfügen (Abkürzung des Befehls)
+\newcommand{\bs}{\boldsymbol}               % fett + kursiv z.B. für Matrizen oder Vektoren (Abkürzung)
+
+%-------------------------------------------%
+% Benutzerbefehle (Neudefinitionen) Ende    %
+%===========================================%
+
+
+
+
+%===========================================%
+% Dokument-Metadaten                        %
+%-------------------------------------------%
+\hypersetup   % Meta-Daten (bitte eingeben)
+  {
+  pdftitle      ={\title},
+  pdfauthor     ={\author},
+  pdfsubject    ={\subject},
+  pdfcreator    ={\editorsoftware},
+  pdfproducer   ={pdfLaTeX},
+  pdfkeywords   ={\keywords},
+  pdflang       ={\textlanguage}   % Language-identifier (RFC 3066) (de-1996, en-US, en-GB)
+  }
+
+\hypersetup   % Ansichtsoptionen
+  {
+  pdfstartview    ={Fit},             % Startansicht im Viewer
+  pdfcenterwindow ={true},            % Startansicht im Viewer
+  pdfpagelayout   ={SinglePage},      % Layout im Viewer (TwoColumnRight, TwoPageRight, OneColumn, SinglePage)
+  colorlinks      ={false}            % Hyperlinks nicht einfärben
+  }
+%-------------------------------------------%
+% Dokument-Metadaten Ende                   %
+%===========================================%
+
+% EOF 

@@ -1,0 +1,56 @@
+\select@language {ngerman}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goal}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}Related Work}{9}{section.1.3}
+\contentsline {section}{\numberline {1.4}Overview}{10}{section.1.4}
+\contentsline {chapter}{\numberline {2}Feature Extraction Algorithm}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}descriptor}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Viewpoint Feature Histogram}{11}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Theoretical Background}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}shape based object recognition}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Feature}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Convolution Neural Network}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Visual geometric group}{14}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Learning Algorithm}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Support Vector machine}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Random Forest}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Gradient Boost Tree}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}K-Nearest Neighbor}{21}{section.3.4}
+\contentsline {chapter}{\numberline {4}Dataset and Evaluation Method}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Result Evaluation Terms}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Classification evaluation method}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Cross Validation}{26}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {5}System Overview}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}RoboSherlock}{28}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Memory For Robosherlock}{30}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Web based Visualization tools}{35}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Developed System's Architecture}{37}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Work Flows from extracting feature to predictive model evaluation:}{37}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Classifier Annotator}{40}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Flow chart to describe robosherlock pipeline and query to the database}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Libraries for Algorithms Implementations}{41}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}UIMA}{41}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}ROS}{42}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}OpenCV}{42}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}PCL}{42}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Caffe}{42}{subsection.5.2.9}
+\contentsline {chapter}{\numberline {6}Experiments and Evaluations}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Data Acquisition}{43}{section.6.1}
+\contentsline {section}{\numberline {6.2}Test procedure}{45}{section.6.2}
+\contentsline {section}{\numberline {6.3}Test}{46}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Supervised Results}{46}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Semi-supervised Results}{47}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{48}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Extracting Feature Module}{49}{section.A.1}
+\contentsline {section}{\numberline {A.2}Classifier Trainer Module}{51}{section.A.2}
+\contentsline {section}{\numberline {A.3}Image Classifier Module}{51}{section.A.3}
+\contentsline {chapter}{\numberline {B}List of Figures}{54}{appendix.B}
+\contentsline {chapter}{\numberline {C}List of Tables}{56}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{57}{appendix.D}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {english}

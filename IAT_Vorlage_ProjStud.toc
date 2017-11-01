@@ -1,0 +1,65 @@
+\select@language {ngerman}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goal}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}Related Work}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Overview}{9}{section.1.4}
+\contentsline {chapter}{\numberline {2}Feature Extraction Algorithm}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}descriptor}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Viewpoint Feature Histogram}{10}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Theoretical Background}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}shape based object recognition}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Feature}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Convolution Neural Network}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Visual geometric group}{13}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Learning Algorithm}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Support Vector machine}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Random Forest}{18}{section.3.2}
+\contentsline {section}{\numberline {3.3}Gradient Boost Tree}{20}{section.3.3}
+\contentsline {section}{\numberline {3.4}K-Nearest Neighbor}{20}{section.3.4}
+\contentsline {chapter}{\numberline {4}Dataset and Evaluation Method}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Result Evaluation Terms}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Classification evaluation method}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Cross Validation}{25}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {5}System Overview}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}RoboSherlock}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Memory For Robosherlock}{29}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Web based Visualization tools}{34}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Developed System's Architecture}{36}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Classifier Annotator}{38}{subsection.5.2.1}
+\contentsline {chapter}{\numberline {6}Implementation}{40}{chapter.6}
+\contentsline {section}{\numberline {6.1}Libraries for Algorithms Implementations}{40}{section.6.1}
+\contentsline {section}{\numberline {6.2}UIMA}{40}{section.6.2}
+\contentsline {section}{\numberline {6.3}ROS}{41}{section.6.3}
+\contentsline {section}{\numberline {6.4}OpenCV}{41}{section.6.4}
+\contentsline {section}{\numberline {6.5}PCL}{41}{section.6.5}
+\contentsline {section}{\numberline {6.6}RoboSherlock}{41}{section.6.6}
+\contentsline {section}{\numberline {6.7}Dataset}{41}{section.6.7}
+\contentsline {section}{\numberline {6.8}perception Framework}{41}{section.6.8}
+\contentsline {section}{\numberline {6.9}Tools Usages}{41}{section.6.9}
+\contentsline {section}{\numberline {6.10}rrrr}{41}{section.6.10}
+\contentsline {section}{\numberline {6.11}Database}{41}{section.6.11}
+\contentsline {section}{\numberline {6.12}RoboSherlock:}{43}{section.6.12}
+\contentsline {section}{\numberline {6.13}Memory:}{43}{section.6.13}
+\contentsline {section}{\numberline {6.14}Database:}{45}{section.6.14}
+\contentsline {section}{\numberline {6.15}dataset:}{45}{section.6.15}
+\contentsline {section}{\numberline {6.16}Implemented Tools}{45}{section.6.16}
+\contentsline {section}{\numberline {6.17}Feature Extractor Tool}{45}{section.6.17}
+\contentsline {section}{\numberline {6.18}Classifier Trainer Tool}{46}{section.6.18}
+\contentsline {section}{\numberline {6.19}Classifier Evaluator tool}{47}{section.6.19}
+\contentsline {chapter}{\numberline {7}Experiments and Evaluations}{54}{chapter.7}
+\contentsline {section}{\numberline {7.1}Data Acquisition}{54}{section.7.1}
+\contentsline {section}{\numberline {7.2}Test procedure}{56}{section.7.2}
+\contentsline {section}{\numberline {7.3}Test}{57}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Supervised Results}{57}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Semi-supervised Results}{58}{subsection.7.3.2}
+\contentsline {chapter}{\numberline {8}Conclusion}{59}{chapter.8}
+\contentsline {chapter}{\numberline {A}Anhang}{60}{appendix.A}
+\contentsline {chapter}{\numberline {B}List of Figures}{61}{appendix.B}
+\contentsline {chapter}{\numberline {C}List of Tables}{63}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{64}{appendix.D}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {english}

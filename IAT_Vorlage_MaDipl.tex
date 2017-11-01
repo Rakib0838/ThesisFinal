@@ -1,0 +1,482 @@
+\input{preambel1_packages}
+
+\def\lang{ngerman}  %%% choose your document language here: 'ngerman' OR 'english'
+%\def\pagelayout{twoside}   %%% choose single or twosided layout
+
+%===========================================%
+% zusätzliche Pakete hier einbinden!!!      %
+%-------------------------------------------%
+
+
+
+%-------------------------------------------%
+% zusätzliche Pakete oberhalb einbinden!    %
+%===========================================%
+
+%===========================================%
+% Dokument-Metadaten (bitte ausfüllen!)     %
+%-------------------------------------------%
+
+\def\author{Dipl.-Ing. Simon R\"unzi}
+\def\subject{Dokumentvorlage zur Erstellung einer Diplom- oder Masterarbeit am IAT}
+\def\tutorA{Dipl.-Ing. Simon R\"unzi}
+\def\tutorB{~}
+\def\examinerA{Prof. Dr.-Ing. Kai Michels}
+\def\examinerB{Prof. xyz}
+
+\ifx\lang\langencond
+  \def\title{Master Thesis}
+  \def\keywords{keyword 1, keyword 2}
+  \def\tutorhead{Tutor:}
+  \def\examinerheadA{1\textsuperscript{st} Examiner:}
+  \def\examinerheadB{2\textsuperscript{nd} Examiner:}
+  \def\textlanguage{en-us}
+\fi
+\ifx\lang\langdecond
+  \def\title{Diplom-/Masterarbeit}
+  \def\keywords{Stichwort 1, Stichwort 2}
+  \def\tutorhead{Betreuer:}
+  \def\examinerheadA{1. Gutachter:}
+  \def\examinerheadB{2. Gutachter:}
+  \def\textlanguage{de-1996}
+\fi
+
+\def\submissiondate{\today}
+\def\editorsoftware{WinEdt 6.0}
+
+%-------------------------------------------%
+% Dokument-Metadaten Ende                   %
+%===========================================%
+
+\input{preambel2_defs}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                   %%%%%%%%%%%%%%%%%%%%%%%
+%%%  Dokument-Anfang  %%%%%%%%%%%%%%%%%%%%%%%
+%%%                   %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\ifx\lang\langencond
+  \selectlanguage{english}
+\fi
+\ifx\lang\langdecond
+  \selectlanguage{ngerman}
+\fi
+
+\begin{titlepage}
+  \hbox{}
+  \begin{textblock}{21}(0,0)
+
+  % Kopfzeile
+  \begin{figure}[t]
+    \centering
+	\includegraphics[width=\textwidth]{iat_head}
+  \end{figure}
+  \vspace{24.67cm}
+  \begin{figure}[b]
+    \centering
+	\includegraphics[width=\textwidth]{iat_foot}
+  \end{figure}
+  \end{textblock}
+
+
+  \begin{textblock}{14}(3.5,7)
+    \centering
+    {\large\bfseries
+      \title
+    \par}
+    \vspace{1.2cm}
+    {\linespread{1.1}\huge\sffamily\bfseries
+      \subject
+    \par}
+    \vspace{1.2cm}
+    {\Large
+      \author
+    \par}
+    \vspace{0.5cm}
+    \submissiondate
+  \end{textblock}
+
+
+  \begin{textblock}{14}(3.5,21)
+    \centering
+    \begin{minipage}[t]{0.4\textwidth}
+      \begin{flushleft} \large
+        \underline{\tutorhead}       \\[0.25em]
+        \tutorA                     \\[0.25em]
+        \tutorB
+      \end{flushleft}
+    \end{minipage}
+    \hspace{0.1\textwidth}
+    \begin{minipage}[t]{0.4\textwidth}
+      \begin{flushleft} \large
+        \underline{\examinerheadA}   \\[0.25em]
+        \examinerA                  \\[1em]
+        \underline{\examinerheadB}   \\[0.25em]
+        \examinerB
+      \end{flushleft}
+    \end{minipage}
+
+  \end{textblock}
+
+
+  \thispagestyle{empty}
+\end{titlepage}
+
+
+\cleardoublepage
+~\\
+\vspace{1cm}
+
+\noindent{\Large\textbf{\textsf{Urheberrechtliche Erkl"arung}}}\\[2em]
+Hiermit versichere ich, dass ich meine Abschlussarbeit ohne fremde Hilfe angefertigt habe, und dass ich keine anderen als die von mir angegebenen Quellen und Hilfsmittel benutzt habe.\\[1em]
+Alle Stellen, die w"ortlich oder sinngem"a"s aus Ver"offentlichungen entnommen sind, habe ich unter Angabe der Quellen als solche kenntlich gemacht.\\[1em]
+Die Abschlussarbeit darf nach Abgabe nicht mehr ver"andert werden.\\[3em]
+Datum: \rule{3.2cm}{0.4pt} \hspace{0.6cm} Unterschrift: \rule{5.4cm}{0.4pt}
+
+\vspace{2cm}
+\noindent{\Large\textbf{\textsf{Erkl"arung zur Ver"offentlichung von Abschlussarbeiten}}}\\[1em]
+\begin{itemize}
+  \item[$\Box$]
+  Ich bin damit einverstanden, dass meine Abschlussarbeit im Universit"atsarchiv f"ur wissenschaftliche Zwecke von Dritten eingesehen werden darf.
+
+  \item[$\Box$]
+  Ich bin damit einverstanden, dass meine Abschlussarbeit nach 30 Jahren (gem. \S7 Abs. 2 BremArchivG) im Universit"atsarchiv f"ur wissenschaftliche Zwecke von Dritten eingesehen werden darf.
+
+  \item[$\Box$]
+  Ich bin \emph{nicht} damit einverstanden, dass meine Abschlussarbeit im Universit"atsarchiv f"ur wissenschaftliche Zwecke von Dritten eingesehen werden darf.
+\end{itemize}
+\vspace{1cm}
+Datum: \rule{3.2cm}{0.4pt} \hspace{0.6cm} Unterschrift: \rule{5.4cm}{0.4pt}
+
+\cleardoublepage
+\thispagestyle{empty}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  ABSTRACT - if requested                %
+%%%-----------------------------------------%
+\chapter*{Abstract}
+Kurzfassung (1--2 Seiten) der ganzen Arbeit. Wenn nicht notwendig, bitte mit \% auskommentieren!
+
+
+
+%%%-----------------------------------------%
+%%%  ABSTRACT ends here                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\tableofcontents    % table of contents
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  DOCUMENT begins here                   %
+%%%-----------------------------------------%
+\chapter{Anleitung zu dieser Vorlage}
+
+
+
+\section{Einleitung}
+Dies ist die IAT-Vorlage für (studentische) Arbeiten in der AG Michels. Das Layout und diverse Einstellungen sind bereits fertig konfiguriert, so dass direkt mit dem Schreiben begonnen werden kann! An der Vorlage darf nichts verändert werden.
+
+
+
+\section{\LaTeX-Installation}
+\LaTeX\ ist ein Textsatzsystem, mit dem viele Funktionen, Layouts und Befehle zur Erstellung eines Dokuments in verschiedenen \emph{Paketen} zur Verfügung stehen. Zunächst müssen diese Pakete heruntergeladen und installiert werden.
+
+Diese Vorlage basiert auf der MiKTeX-Distribution, die auf www.miktex.org erhältlich ist:
+\begin{enumerate}
+  \item
+  Seite www.miktex.org öffnen.
+
+  \item
+  Unter \emph{Downloads} bei \emph{Other Downloads} den aktuellen \emph{MiKTeX $\ast.\ast.\ast\ast\ast\ast$ Net Installer} für 64 oder 32\,Bit herunterladen.
+
+  \item
+  Den MiKTeX Net Installer ausführen und die \emph{vollständige} Distribution (alle Pakete) herunterladen.
+
+  \item
+  Nach dem Herunterladen des kompletten Systems den MiKTeX Net Installer ggf. erneut starten und das komplette System (alle Pakete) installieren.
+
+  \item
+  \LaTeX\ ist nun schon benutzbar, jedoch ist der mitgelieferte Editor \emph{TeXmaker} nicht gerade mit reichlichen Funktionen ausgestattet, die das Erstellen von Dokumenten vereinfachen. Wir empfehlen daher, einen anderen Editor zu verwenden, z.\,B. \emph{WinEdt}.
+\end{enumerate}
+
+
+
+\section{Installation des WinEdt-Editors}
+Der Editor WinEdt kann von der Webseite www.winedt.com heruntergeladen werden. Wir empfehlen die Verwendung dieses Editors, da sich gut mit ihm arbeiten lässt und wir den besten Support bei \TeX\-Problemen und diesem Editor liefern können.
+
+Nach dem Download und der Installation sollte WinEdt das Standard"=Programm zum Öffnen von .tex Dateien werden!
+
+
+
+\section{Erstellen (Kompilieren) von Dokumenten}
+Die Bearbeitung eines Dokuments erfolgt in der .tex Datei. Diese Vorlage besteht zwar aus mehreren .tex-Dateien, jedoch ist nur das Hauptdokument, dass mit \emph{IAT\_Vorlage\_...} beginnt, ausschlaggebend. Dies ist die einzige Datei, die verändert und auch kopiert und umbenannt werden darf.
+
+Die MiKTeX-Distribution stellt mehrere verschiedene Kompilierer zur Verarbeitung der .tex Datei zur Verfügung. Ziel ist die Erstellung eines .pdf Dokuments. Dafür soll ausschließlich das Programm \emph{pdfLaTeX} verwendet werden!
+
+In WinEdt kann der Kompilierer über die Symbolleiste ausgewählt und auch gestartet werden. In der Regel ist es notwendig ein Dokument mindestens zweimal hintereinander zu kompilieren, da bei ersten Durchlauf erst alle Referenzen und Verweise innerhalb des Dokuments gesammelt werden und beim zweiten Durchlauf erst im Dokument erscheinen.
+
+
+
+
+
+\chapter{Kapitelüberschrift}
+Die höchste Gliederungsebene ist das Kapitel (chapter).
+
+\section{Abschnittsüberschrift}
+Ein Abschnitt (section) ist die zweite Gliederungsebene.
+
+\subsection{Unterabschnitt}
+Ein Unterabschnitt (subsection) ist noch nummeriert und taucht auch noch im Inhaltsverzeichnis auf.
+
+\subsubsection{Unterunterabschnitt}
+Ein Unterunterabschnitt (subsubsection) hat keine Nummerierung mehr.
+
+\paragraph{Abstatz}
+Ein abgesetzter Absatz mit fettgedrucktem Titel.
+
+
+
+\chapter{Grundlegende Befehle}
+\section{Formatierung}
+\begin{itemize}
+  \item
+  Um einen Absatz ohne Zwischenraum einzufügen, im .tex Dokument einfach eine Leerzeile lassen.
+
+  Zeilenumbrüche lassen sich manuell mit dem Befehl \texttt{\tbs newline}\newline
+  erzwingen, wobei auch in der .tex Datei die Zeile hinter \texttt{\tbs newline} beendet sein muss.\newline
+
+  Für Absätze mit Zwischenraum ist die Kombination aus \texttt{\tbs newline} und anschließender Leerzeile im Editor einzugeben.
+
+  \item
+  Deutsche Texte können zunächst mit Umlauten und ß verfasst werden. Vor Abgabe der Arbeit sollen jedoch alle deutschen Sonderzeichen so ersetzt werden, dass sie durch Steuerzeichen von \LaTeX\ erzeugt werden. Dazu bitte im gesamten Dokument "`suchen und ersetzen"': \shorthandoff{"}\texttt{ä$\Rightarrow$"a , Ä$\Rightarrow$"A , ö$\Rightarrow$"o , Ö$\Rightarrow$"O , ü$\Rightarrow$"u , Ü$\Rightarrow$"U , ß$\Rightarrow$"s.}\shorthandon{"}
+
+\end{itemize}
+
+
+
+\section{Aufzählungen}
+Aufzählungen werden so eingegeben:
+\begin{itemize}
+  \item Innerhalb der \texttt{itemize}-Umgebung werden die einzelnen Punkte durch \texttt{\tbs item} eingeleitet.
+  \item Jeder Punkt geht bis zum nächsten Aufruf von \texttt{\tbs item} oder bis die Umgebung beendet wird.
+
+  \begin{enumerate}
+    \item Dies ist eine Aufzählung in einer Aufzählung
+    \item Mit einem zweiten Punkt...
+    \item und einem dritten.
+  \end{enumerate}
+  \item Noch ein übergeordneter...
+\end{itemize}
+
+Ähnlich verhält es sich mit nummerierten Aufzählungen:
+\begin{enumerate}
+  \item Hier lautet die Umgebung jedoch \texttt{enumerate}.
+  \item Die einzelnen Punkte werden aber auch mit \texttt{\tbs item} eingeleitet.
+\end{enumerate}
+
+
+
+\section{Bilder}
+Bilder werden mit \texttt{\tbs includegraphics\{\}} eingebunden. Die Auswahl an Dateiformaten ist beschränkt. Optimal geeignet sind Vektorgrafiken im .pdf Format, oder .png Dateien für Pixelgrafiken.
+\begin{itemize}
+  \item
+  Selbsterstellte Grafiken sollen unbedingt als Vektorgrafik erstellt werden (empfehlenswert: mit CorelDraw, wenn verfügbar, oder mit MS Visio).
+
+  \item
+  Vektorgrafiken im Bearbeitungsprogramm komplett markieren (alle Objekte auswählen) und dann nur die Auswahl mit \emph{Speichern unter...} als .pdf abspeichern. Wenn nicht direkt als .pdf gespeichert werden kann, kann die Auswahl ins .pdf \emph{gedruckt} werden.
+
+  \item
+  Fertige Grafiken und Bilder, die ins Dokument eingebunden werden (also ausschießlich .pdf und .png Dateien), werden im Unterordner \emph{Bilder} gespeichert. Die Vorlagen, also z.\,B. die CorelDraw- oder Visio"=Dateien sollen im Unterordner \emph{bilder\textbackslash Vorlagen} abgelegt werden.
+
+  \item
+  Vektor- und Pixelgrafiken sind in der gewünschten Ausgabegröße zu erstellen, d.\,h. die maximale Breite sollte $\unit[13]{cm}$ nicht übersteigen, da es sonst breiter als der Text wäre und beim Einbinden durch pdfLaTeX skaliert werden müsste ($\Rightarrow$ Qualitätsverlust).
+
+  \item
+  Pixelgrafiken sollten zusätzlich auf eine Auflösung von 300\,ppi bzw. dpi gebracht werden, damit sie beim Ausdruck scharf wirken.
+
+  \item
+  Ziel ist es, Bilder möglichst ohne weitere Skalierung einbinden zu können (\emph{Option: [scale=1]}).
+
+  \item
+  Bilder grundsätzlich in der \texttt{figure}-Umgebung einbinden!
+
+  \item
+  Durch \texttt{\tbs centering} wird das Bild zentriert.
+
+  \item
+  \texttt{\tbs caption\{\}} stellt den Titel der Abbildung dar.
+
+  \item
+  \texttt{\tbs label\{\}} ermöglicht das Einfügen einer Referenzmarke, auf die man sich im Text mit \texttt{\tbs ref\{\}} beziehen kann. Der Rückgabewert von Referenzmarken ist immer die Nummer der Umgebung.
+\end{itemize}
+
+
+
+\subsection{Beispiel}
+Der Matlabplot aus Abbildung \ref{fig:PTn-Modelle} ist ein Beispiel für den pdf-workflow.
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.75]{bilder/ptnmodelle}
+  \caption{PT$_1$-, PT$_2$- und PT$_3$-Modell ($T_\text{a}=\unit[3.254]{s}$, $K_\text{a}=1$)}
+  \label{fig:PTn-Modelle}
+\end{figure}
+Der Quellcode dazu lautet:\\[0.5em]
+{\tt
+\tbs begin\{figure\}[h]
+
+  \tbs centering
+
+  \tbs includegraphics[scale=0.75]\{ptnmodelle\}
+
+  \tbs caption\{PT\$\_1\$-, PT\$\_2\$- und PT\$\_3\$-Modell (\$T\_\tbs text\{a\}=\tbs unit[
+
+  3.254]\{s\}\$, \$K\_\tbs text\{a\}=1\$)\}
+
+  \tbs label\{fig:PTn-Modelle\}\\
+\tbs end\{figure\}
+}\\
+
+In diesem Beispiel wurde der Matlabplot unverändert (d.\,h. ohne weitere Anpassung der Schriftart und -größe und der Ausgabegröße) ins .pdf auf DinA4 gedruckt. Die weißen Bereiche um den eigentlichen Plot herum, wurden nachträglich abgeschnitten und der verbleibende Ausschnitt gespeichert.
+
+Zu Anschauungszwecken wurde der Plot hier auf 75\,\% skaliert eingefügt.
+
+
+
+
+\section{Formeln}
+Die zu Abbildung \ref{fig:PTn-Modelle} gehörige Übertragungsfunktion lautet:
+\begin{align}
+  G(s) = \frac{K_\text{a}}{(T_\text{a} \cdot s + 1)^n} \qquad n=1,2,3,\ldots
+  \label{eq:UeFkt-PTn}
+\end{align}
+Auch Formeln können referenziert werden, da sie standardmäßig durchnummeriert werden. Für nahezu alle zu setzenden Formeln kann die \texttt{align}-Umgebung verwendet werden. Wird die Umgebung mit * aufgerufen (\texttt{align*}), so wird die Formel nicht durchnummeriert.
+
+Zwei oder mehrzeilige Formeln lassen sich an beliebigen Stellen ausrichten, beispielsweise am $=$-Zeichen. Dazu fügt man ein \texttt{\&}-Zeichen an der Stelle ein, an der die Ausrichtung erfolgen soll. Eine Zeile wird durch einen doppelten Backslash \texttt{\tbs\tbs} beendet. Die Nummerierung einzelner Zeilen lässt sich mit dem Befehl \texttt{\tbs nonumber} verhindern.
+\begin{align}
+  K_\text{P} &= \frac{0.6 \cdot T_\text{g}}{K_\text{a} \cdot T_\text{u}} = 10 \nonumber \\
+  T_\text{N} &= 4 \cdot T_\text{u} = \unit[2]{s}
+\end{align}
+Der zugehörige Quellcode lautet dann:\\[0.5em]
+{\tt
+\tbs begin\{align\}
+
+  K\_\tbs text\{P\} \&= \tbs frac\{0.6 \tbs cdot T\_\tbs text\{g\}\}\{K\_\tbs text\{a\} \tbs cdot
+
+  T\_\tbs text\{u\}\} = 10 \tbs nonumber \tbs\tbs
+
+  T\_\tbs text\{N\} \&= 4 \tbs cdot T\_\tbs text\{u\} = \tbs unit[2]\{s\}\\
+\tbs end\{align\}
+}
+
+
+
+\section{Tabellen}
+Für Tabellen ist aus typografischer Sicht folgendes sinnvoll:
+\begin{itemize}
+  \item möglichst keine vertikalen Linien verwenden
+  \item horizontale Linien sparsam einsetzen
+  \item mehrzeiliger Text in Zellen vermeiden (ist aber möglich)
+  \item \texttt{\tbs toprule} für obere, äußere Linie verwenden
+  \item \texttt{\tbs midrule} für Linien unter der Überschrift oder anderen Stellen innerhalb der Tabelle verwenden
+  \item \texttt{\tbs bottomrule} für die untere, äußere Linie verwenden
+\end{itemize}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{crl}
+    \toprule
+    \textbf{Nr.}    & \textbf{Name} & \textbf{Emailadresse}     \endline\midrule
+    1               & Max           & max@uni-bremen.de         \endline
+    2               & Moritz        & moritz@uni-bremen.de      \endline
+    3               & Miraculix     & mira@culix.fr             \endline
+    4               & Hermes        & hermes@goetterbote.de     \endline\bottomrule
+  \end{tabular}
+  \caption{Beispiel einer einfachen Tabelle}
+  \label{tab:Tabellenbeispiel einfach}
+\end{table}
+
+
+
+
+\section{Zitieren und Literaturverzeichnis}
+Es empfiehlt sich, alle benutzte Literatur frühzeitig in der Literaturliste \emph{literatur.bib} einzugeben. Diese kann mit WinEdt geöffnet und bearbeitet werden. In der zu dieser Vorlage gehörenden .bib Datei sind bereits ein paar wenige Beispiele eingetragen.\\
+
+Ein Zitat sieht nun z.\,B. so aus: "`..."' \cite[S.123 f]{graeser-gdl-regeltk}. Die Eingabe erfolgt an der entsprechenden Stelle im Text mit \texttt{\tbs cite[S.123 f]\{graeser-gdl-regeltk\}} wobei der Ausdruck in eckigen Klammern [\,] optional ist und die Seitenangabe darstellt. In geschweiften Klammern \{\,\} muss hingegen die Referenz auf die Quelle angegeben werden, wie sie in der .bib Datei festgelegt wurde.
+
+
+\subsection{Kompilieren mit Literaturverweisen}
+Nach dem Anlegen der .bib Datei und referenzieren auf deren Inhalte muss \LaTeX\ zunächst mitgeteilt werden, welche Bibliographie"-daten vorhanden sind. Dazu muss \emph{BibTeX} ausgeführt werden. Folgende Reihenfolge muss eingehalten werden:
+\begin{enumerate}
+  \item
+  Dokument mit \emph{pdfLaTeX} kompilieren
+
+  \item
+  \emph{BibTeX} ausführen (bei WinEdt durch Klicken auf das {\bf B} in der Symbolleiste)
+
+  \item
+  Dokument mit \emph{pdfLaTeX} kompilieren
+
+  \item
+  Dokument nochmal mit \emph{pdfLaTeX} kompilieren
+\end{enumerate}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  APPENDIX / Anhang                      %
+%%%-----------------------------------------%
+\begin{appendix}
+
+\chapter{Anhang}
+
+Hier befindet sich der Anhang.
+
+
+
+
+
+\end{appendix}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Verzeichnisse                          %
+%%%-----------------------------------------%
+
+
+%%% Abbildungsverzeichnis
+%\newpage\thispagestyle{empty}{~}\cleardoublepage		% min. eine leere Seite nach Anhang erzwingen
+\listoffigures                  % Ausgabe des Abbildungsverzeichnisses
+
+
+%%% Tabellenverzeichnis
+\listoftables			        % Ausgabe des Tabellenverzeichnisses
+
+
+%%% Literaturverzeichnis
+\nocite{*}  % Alle Quellen auflisten / auskommentieren bewirkt,
+              % dass nur im Text referenzierte Quellen aufgelistet werden
+\bibliography{literatur}{}   % Ausgabe des Literaturverzeichnisses
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                 %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Dokument-Ende  %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                 %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+% EOF 

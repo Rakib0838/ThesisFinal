@@ -1,0 +1,44 @@
+\documentclass
+  [
+  paper=a4,             % Papiergröße
+  fontsize=11pt,        % Basisschriftgröße in Punkt
+  DIV=calc,             % Autom. Berechnung eines DIV-Werts / manuell: Bereich 6 (große)...15 (kleine Ränder)
+  %twoside=true,         % ein-/zweiseitiges Layout (false, true)
+  open=right,           % Kapitel nur auf rechter Seite beginnen (bei twoside=true)
+  parskip=false,        % Absätze mit Zwischenraum (half, auch full = größerer Abstand)
+  listof=numbered,
+  bibliography=totocnumbered,
+  %fleqn,               % Formeln linksbündig setzen
+  %BCOR4mm,             % Bindekorrektur (zusätzl. innerer Rand)
+  ]
+  {scrreprt}            % Dokumentklasse
+
+\usepackage[english,ngerman]{babel}         % Neue deutsche Silbentrennung / Sprachpaket
+\usepackage[latin1]{inputenc}               % deutsche Tastatureingabe
+\usepackage[headsepline,footsepline]{scrpage2}  % Kopf- und Fußzeilen mit Linien
+
+\usepackage{graphicx,float}					% Einbinden von Grafiken und Bildern
+\usepackage{amsmath, amssymb, amstext, amsfonts}	% Mathematikpakete
+\usepackage{units}							% Angabe von Einheiten mit $\unit[220]{kV}$
+
+\usepackage{booktabs}						% erweiterte Befehle für Tabellen
+\usepackage{tabularx}						% Tabellen gleicher Gesamtbreite anlegen (Spaltenbreite kann variabel sein)
+\usepackage{multirow}						% Mehrere Zellen miteinander verbinden
+\usepackage{colortbl}						% Zeilen oder Zellen in Tabellen färben
+
+\usepackage{xspace}                         % Zur Definition von Befehlen für mehrgliedrige Abkürzungen benötigt
+\usepackage{setspace}						% Seitenränder? und Zeilenabstand änderbar
+  %\onehalfspacing							% 1,5-facher Zeilenabstand
+\usepackage{color}							% Farben festlegen
+\usepackage[absolute]{textpos}              % Absolute Positionierung ermöglichen für Titelseite
+\usepackage{ifthen}
+
+\usepackage[fixlanguage]{babelbib}			% Zitieren (Quellen referenzieren) / Literaturverzeichnis
+  \bibliographystyle{babplain}              % Zitierstil (babplain, babplai3, babalpha, babunsrt, bababbrv, bababbr3)
+
+\usepackage{pdfpages}                       % pdf-Dokumente (teilweise) einbinden
+
+\def\langencond{english}
+\def\langdecond{ngerman}
+\def\pglay{twoside}
+% EOF 
