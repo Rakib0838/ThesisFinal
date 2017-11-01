@@ -701,6 +701,9 @@ Since all the perception algorithms in \textbf{Robosherlock} are build as annota
 
 \newpage
 \subsection{Flow chart to describe robosherlock pipeline and query to the database}
+When data is coming from a robot manipulation task or from a database, these data are initially considered as test data and there are no label with the data. There for it is not possible to evaluate the classification result. One way to add the object label with the data is to manually add them by human interaction but the process is quite time consuming and monotonous as described in cite ditehobe. Because a quite significant number of data are coming from a robot manipulation task. We solve this problem by trained a specific classifier on a small turn table dataset. As we know which objects are contains in the dataset coming from the pipe line. So we trained the classifier on same number of objects on turn table data and generated a predictive model. Then we classify the image coming from the pipeline using this small model which add the class label to the data. The reason for using small predictive model is that the less variation of the data in the predictive model provides more classification accuracy. Furthermore, there might be wrong label added to the data because there is no guarantee that the classifier add the correct label to the data. Using the web visualization tool we can see which hypotheses has which class label, so false label annotation easily traceable. We developed a small tool called \textbf{GorundTruth Annotation} is used to correct the false label annotation. The figure of the annotation tool is shown below.
+Where the sceneId is the id of the scene in which the hypothesis is belong and object  number is the number of hypothesis in the scene. The \textbf{CL pipeline} is used to classify the object hypotheses on the large predictive model which contains all the possible objects of the environment where robot agent supposed to work. In our case we consider 54 objects which names are mentioned in section Data Acquisition. Finally we get the database where the hypothesis contains and annotated with all the necessary information to do our next experiment. As the pipeline contains many other annotators which also annotate the hypotheses according their expertise. This database is considered as the episodic memory of the robot. To query this memory we do different experiments and evaluate the performance of process. The details about the different experiments are illustrated in the next chapter. The overview are shown by the following flow diagram.
+
 \begin{figure}[!h]
 \tikzstyle{io}=[draw,rectangle,rounded corners,fill=red!50,text width=4em,text centered,minimum height=6mm]
 \tikzstyle{block} = [draw, fill=blue!20, rectangle, 
@@ -742,6 +745,7 @@ Since all the perception algorithms in \textbf{Robosherlock} are build as annota
 \path[line](base1)--(process1);
 \path[line](process1)--(base2);
 \path[line](base2)--(process2);
+\path[line](process2)--(base2);
 \path[line](process2)--(process3);
 \path[line](process3)--(process4);
 \path[line](process4.east)--(+6,-1)|-(process2);

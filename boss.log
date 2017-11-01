@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.24)  1 NOV 2017 08:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.24)  1 NOV 2017 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3036,9 +3036,12 @@ Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
 [40]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: bilder/iat_logo.pdf Graphic file (type pdf)
- <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 760.
+<use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 764.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
@@ -3047,122 +3050,108 @@ Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 [41]
 File: bilder/iat_logo.pdf Graphic file (type pdf)
  <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 768.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 764.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
 [42]
-Chapter 6.
-
-LaTeX Warning: Citation `dataset' on page 43 undefined on input line 771.
-
 File: bilder/iat_logo.pdf Graphic file (type pdf)
-<use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 829.
+ <use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 772.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[43
+[43]
+Chapter 6.
+
+LaTeX Warning: Citation `dataset' on page 44 undefined on input line 775.
+
+File: bilder/iat_logo.pdf Graphic file (type pdf)
+<use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 833.
+(pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
+
+Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-] <figure/rgbd.png, id=602, 1888.05376pt x 1027.84pt>
+[44
+
+
+] <figure/rgbd.png, id=606, 1888.05376pt x 1027.84pt>
 File: figure/rgbd.png Graphic file (type png)
  <use figure/rgbd.png>
-Package pdftex.def Info: figure/rgbd.png used on input line 853.
+Package pdftex.def Info: figure/rgbd.png used on input line 857.
 (pdftex.def)             Requested size: 336.09593pt x 182.96436pt.
 
 
-LaTeX Warning: Citation `dataset' on page 44 undefined on input line 854.
+LaTeX Warning: Citation `dataset' on page 45 undefined on input line 858.
 
 
-LaTeX Warning: Citation `dataset' on page 44 undefined on input line 854.
+LaTeX Warning: Citation `dataset' on page 45 undefined on input line 858.
 
-<figure/rgbd1.png, id=603, 1967.35pt x 1065.9825pt>
+<figure/rgbd1.png, id=607, 1967.35pt x 1065.9825pt>
 File: figure/rgbd1.png Graphic file (type png)
  <use figure/rgbd1.png>
-Package pdftex.def Info: figure/rgbd1.png used on input line 859.
+Package pdftex.def Info: figure/rgbd1.png used on input line 863.
 (pdftex.def)             Requested size: 261.40857pt x 141.64052pt.
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 861.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 865.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[44 <./figure/rgbd.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 868--870
+[45 <./figure/rgbd.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 872--874
 
  []
 
-<figure/accu.png, id=613, 586.8324pt x 442.2924pt>
+<figure/accu.png, id=618, 586.8324pt x 442.2924pt>
 File: figure/accu.png Graphic file (type png)
  <use figure/accu.png>
-Package pdftex.def Info: figure/accu.png used on input line 873.
+Package pdftex.def Info: figure/accu.png used on input line 877.
 (pdftex.def)             Requested size: 336.09593pt x 253.31732pt.
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 876.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 880.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[45 <./figure/rgbd1.png>]
+[46 <./figure/rgbd1.png>]
 
-LaTeX Warning: Citation `dataset' on page 46 undefined on input line 880.
+LaTeX Warning: Citation `dataset' on page 47 undefined on input line 884.
 
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 881.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 885.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[46 <./figure/accu.png>]
+[47 <./figure/accu.png>]
 File: bilder/iat_logo.pdf Graphic file (type pdf)
  <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 901.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 905.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[47]
+[48]
 Chapter 7.
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 914.
-(pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
-
-Overfull \vbox (4.16368pt too high) has occurred while \output is active []
-
-
-[48
-
-
-]
-Appendix A.
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--920
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--920
-
- []
-
-File: bilder/iat_logo.pdf Graphic file (type pdf)
-<use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 942.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 918.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
@@ -3172,35 +3161,49 @@ Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 953--957
+Appendix A.
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--924
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--924
 
  []
 
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 972.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 946.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 977--984
+[50
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 957--961
 
  []
 
 File: bilder/iat_logo.pdf Graphic file (type pdf)
 <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1000.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 976.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
 [51]
+Underfull \hbox (badness 10000) in paragraph at lines 981--988
+
+ []
+
 File: bilder/iat_logo.pdf Graphic file (type pdf)
- <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1030.
+<use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1004.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
@@ -3209,37 +3212,13 @@ Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 [52]
 File: bilder/iat_logo.pdf Graphic file (type pdf)
  <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1047.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1034.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
 [53]
-Appendix B.
-(./boss.lof
-
-LaTeX Warning: Citation `Storing' on page 54 undefined on input line 23.
-
-
-LaTeX Warning: Citation `dataset' on page 54 undefined on input line 33.
-
-)
-\tf@lof=\write7
-\openout7 = `boss.lof'.
-
-File: bilder/iat_logo.pdf Graphic file (type pdf)
- <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1048.
-(pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
-
-Overfull \vbox (4.16368pt too high) has occurred while \output is active []
-
-
-[54
-
-
-]
 File: bilder/iat_logo.pdf Graphic file (type pdf)
  <use bilder/iat_logo.pdf>
 Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1051.
@@ -3248,7 +3227,40 @@ Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1051.
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[55]
+[54]
+Appendix B.
+(./boss.lof
+
+LaTeX Warning: Citation `Storing' on page 55 undefined on input line 23.
+
+
+LaTeX Warning: Citation `dataset' on page 55 undefined on input line 33.
+
+)
+\tf@lof=\write7
+\openout7 = `boss.lof'.
+
+File: bilder/iat_logo.pdf Graphic file (type pdf)
+ <use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1052.
+(pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
+
+Overfull \vbox (4.16368pt too high) has occurred while \output is active []
+
+
+[55
+
+
+]
+File: bilder/iat_logo.pdf Graphic file (type pdf)
+ <use bilder/iat_logo.pdf>
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1055.
+(pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
+
+Overfull \vbox (4.16368pt too high) has occurred while \output is active []
+
+
+[56]
 Appendix C.
 (./boss.lot)
 \tf@lot=\write8
@@ -3263,7 +3275,7 @@ Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1.
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[56
+[57
 
 
 ]
@@ -3295,7 +3307,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
 
-[57
+[58
 
 
 ]
@@ -3305,20 +3317,20 @@ und Sa-fou-ra
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1067.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1071.
 File: bilder/iat_logo.pdf Graphic file (type pdf)
  <use bilder/iat_logo.pdf>
-Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1067.
+Package pdftex.def Info: bilder/iat_logo.pdf used on input line 1071.
 (pdftex.def)             Requested size: 32.43611pt x 17.08365pt.
 
 Overfull \vbox (4.16368pt too high) has occurred while \output is active []
 
 
-[58]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1067.
+[59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1071.
  (./boss.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1067.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1067.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1071.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1071.
 
 Package rerunfilecheck Info: File `boss.out' has not changed.
 (rerunfilecheck)             Checksum: 06A70ED23F85CA11D05E8B4D135E9BFD;3322.
@@ -3326,11 +3338,11 @@ Package rerunfilecheck Info: File `boss.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1067.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1071.
  ) 
 Here is how much of TeX's memory you used:
- 32436 strings out of 493304
- 632769 string characters out of 6139871
+ 32437 strings out of 493304
+ 632776 string characters out of 6139871
  762821 words of memory out of 5000000
  35056 multiletter control sequences out of 15000+600000
  15774 words of font info for 59 fonts, out of 8000000 for 9000
@@ -3352,10 +3364,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on boss.pdf (58 pages, 6252462 bytes).
+Output written on boss.pdf (59 pages, 6255104 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 669 compressed objects within 7 object streams
- 176 named destinations out of 1000 (max. 500000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 177 named destinations out of 1000 (max. 500000)
  639 words of extra memory for PDF output out of 10000 (max. 10000000)
 
