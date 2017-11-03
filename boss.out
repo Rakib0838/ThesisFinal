@@ -30,21 +30,22 @@
 \BOOKMARK [2][-]{subsection.5.2.3}{Flow chart to describe robosherlock pipeline and query to the database}{section.5.2}% 30
 \BOOKMARK [2][-]{subsection.5.2.4}{Libraries for Algorithms Implementations}{section.5.2}% 31
 \BOOKMARK [2][-]{subsection.5.2.5}{UIMA}{section.5.2}% 32
-\BOOKMARK [2][-]{subsection.5.2.6}{ROS}{section.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.2.7}{OpenCV}{section.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.2.8}{PCL}{section.5.2}% 35
-\BOOKMARK [2][-]{subsection.5.2.9}{Caffe}{section.5.2}% 36
-\BOOKMARK [0][-]{chapter.6}{Experiments and Evaluations}{}% 37
-\BOOKMARK [1][-]{section.6.1}{Data Acquisition}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.2}{Test procedure}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.3}{Test}{chapter.6}% 40
-\BOOKMARK [2][-]{subsection.6.3.1}{Supervised Results}{section.6.3}% 41
-\BOOKMARK [2][-]{subsection.6.3.2}{Semi-supervised Results}{section.6.3}% 42
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 43
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 44
-\BOOKMARK [1][-]{section.A.1}{Extracting Feature Module}{appendix.A}% 45
-\BOOKMARK [1][-]{section.A.2}{Classifier Trainer Module}{appendix.A}% 46
-\BOOKMARK [1][-]{section.A.3}{Image Classifier Module}{appendix.A}% 47
-\BOOKMARK [0][-]{appendix.B}{List of Figures}{}% 48
-\BOOKMARK [0][-]{appendix.C}{List of Tables}{}% 49
-\BOOKMARK [0][-]{appendix.D}{Bibliography}{}% 50
+\BOOKMARK [2][-]{subsection.5.2.6}{Practical Implementation of the Algorithms}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.7}{ROS}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.8}{OpenCV}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.9}{PCL}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.10}{Caffe}{section.5.2}% 37
+\BOOKMARK [0][-]{chapter.6}{Experiments and Evaluations}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Data Acquisition}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.2}{Test procedure}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.3}{Test}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.3.1}{Supervised Results}{section.6.3}% 42
+\BOOKMARK [2][-]{subsection.6.3.2}{Semi-supervised Results}{section.6.3}% 43
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 45
+\BOOKMARK [1][-]{section.A.1}{Extracting Feature Module}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.2}{Classifier Trainer Module}{appendix.A}% 47
+\BOOKMARK [1][-]{section.A.3}{Image Classifier Module}{appendix.A}% 48
+\BOOKMARK [0][-]{appendix.B}{List of Figures}{}% 49
+\BOOKMARK [0][-]{appendix.C}{List of Tables}{}% 50
+\BOOKMARK [0][-]{appendix.D}{Bibliography}{}% 51

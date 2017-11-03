@@ -32,24 +32,27 @@
 \contentsline {subsection}{\numberline {5.2.3}Flow chart to describe robosherlock pipeline and query to the database}{41}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Libraries for Algorithms Implementations}{42}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}UIMA}{42}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}ROS}{43}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}OpenCV}{43}{subsection.5.2.7}
-\contentsline {subsection}{\numberline {5.2.8}PCL}{43}{subsection.5.2.8}
-\contentsline {subsection}{\numberline {5.2.9}Caffe}{43}{subsection.5.2.9}
-\contentsline {chapter}{\numberline {6}Experiments and Evaluations}{44}{chapter.6}
-\contentsline {section}{\numberline {6.1}Data Acquisition}{44}{section.6.1}
-\contentsline {section}{\numberline {6.2}Test procedure}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Test}{47}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Supervised Results}{47}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Semi-supervised Results}{48}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix}{50}{appendix.A}
-\contentsline {section}{\numberline {A.1}Extracting Feature Module}{50}{section.A.1}
-\contentsline {section}{\numberline {A.2}Classifier Trainer Module}{52}{section.A.2}
-\contentsline {section}{\numberline {A.3}Image Classifier Module}{52}{section.A.3}
-\contentsline {chapter}{\numberline {B}List of Figures}{55}{appendix.B}
-\contentsline {chapter}{\numberline {C}List of Tables}{57}{appendix.C}
-\contentsline {chapter}{\numberline {D}Bibliography}{58}{appendix.D}
+\contentsline {subsection}{\numberline {5.2.6}Practical Implementation of the Algorithms}{43}{subsection.5.2.6}
+\contentsline {subsubsection}{\nonumberline Feature extraction Part}{43}{section*.30}
+\contentsline {subsubsection}{\nonumberline Classification Part}{43}{section*.31}
+\contentsline {subsection}{\numberline {5.2.7}ROS}{43}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}OpenCV}{44}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}PCL}{44}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.10}Caffe}{44}{subsection.5.2.10}
+\contentsline {chapter}{\numberline {6}Experiments and Evaluations}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Data Acquisition}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Test procedure}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Test}{48}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Supervised Results}{48}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Semi-supervised Results}{49}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{50}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Extracting Feature Module}{51}{section.A.1}
+\contentsline {section}{\numberline {A.2}Classifier Trainer Module}{53}{section.A.2}
+\contentsline {section}{\numberline {A.3}Image Classifier Module}{53}{section.A.3}
+\contentsline {chapter}{\numberline {B}List of Figures}{56}{appendix.B}
+\contentsline {chapter}{\numberline {C}List of Tables}{58}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{59}{appendix.D}
 \select@language {ngerman}
 \select@language {ngerman}
 \select@language {ngerman}
