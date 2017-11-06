@@ -236,12 +236,16 @@ In \cite{marton2013ensembles} authors described how to compute feature from imag
 The structure of this paper is as follows: Related work is described in Section II. Next, we give a brief description of our system architecture in Section III. We discuss our surface normal and segmentation algorithm in Section IV followed by a discussion of the Viewpoint Feature Histogram in Section V. Experimental setup and resulting computational
 and recognition performance are described in Section VI. Conclusions and future work are discussed in Section VII
 The project report is organized ino six chapters. Chapter 2 deals with the theoretical background, chapter 3 describes the existing MATLAB model, chapter 4 covers the reprogrammed model in C++, chapter 5 includes program testing and the final chapter contains the conclusion.
-\chapter{Feature Extraction Algorithm}
-\section{descriptor}
-When we work with RGB-D depth image, we calculate descriptors. 3D feature is called descriptors. They are more complex (and precise) signatures of a point, that encode a lot of information about the surrounding geometry. The purpose is to unequivocally identify a point across multiple point clouds, no matter the noise, resolution or transformations. Also, some of them capture additional data about the object they belong to, like the viewpoint (that lets us retrieve the pose). descriptors can be two types local descriptors and global descriptors. Local descriptors are computed for individual points that we give as input. They have no notion of what an object is, they just describe how the local geometry is around that point. Global descriptors encode object geometry. They are not computed for individual points, but for a whole cluster that represents an object. Because of this, a preprocessing step (segmentation) is required, in order to retrieve possible candidates.
-Global descriptors are used for object recognition and classification, geometric analysis (object type, shape...), and pose estimation.
-\subsection{Viewpoint Feature Histogram}
-The VFH (Viewpoint Feature Histogram) is derived from the FPFH (First Point Feature Histogram). The VFH consists of two parts: a viewpoint direction component and an extended FPFH component. To calculate the first one, the object's centroid is computed, which is the point that results from averaging the X, Y and Z coordinates of all points. After that, the vector between the viewpoint (the position of the sensor) and the centroid is computed, and normalized. Finally, for all points in the cluster, the angle between their normal and this vector is calculated, and the result is binned into an histogram. The vector is translated to each point when calculating the angle cause it makes the descriptor scale invariant. The viewpoint direction component calculation is shown graphically in figure below.
+\chapter{Feature Extraction}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\textwidth]{figure/Corgi3}
+\end{figure}
+When a computer precess an image, it considers the image an array of pixel's values. Each of this pixel can be considered as point and it's intensity is described by a range of numerical numbers between 0 to 255. The pixel's values in the image are not sufficient enough information to us when we perform image classification. Therefore we compute the features from the image which represents for a pixel or a whole object in the image. A feature of a point or an object is some characteristic that can help us to tell it apart from another different point or object. In other words, features help us to group similar points or objects together. Examples of features are color components, pixel intensities, mean value of intensities, shape, edges, gradient magnitude, gradient direction, length, area. The calculation of feature depends on the type of application, we want to use for. There are a lots of algorithms are available to extract feature from the image in the area of image processing and computer vision. Each of theses algorithms uses different techniques to compute the different features from the images. As already mentioned that we are interested to instant and shape classification of the objects. Therefore we pick two state of the of the art algorithms for this thesis work. For instant object classification, We use CNN ( convolution neural network ) algorithms to calculate the features from RGB image. \\\\ On the other hand for the shape classification, we use VFH ( view point feature histogram ) algorithm to calculate the descriptor from RGB-D image. The other name of RGB-D image is called point cloud or depth image. The point cloud is a set of points in a three-dimensional coordinate system intended to represent the external surface of an object. When We calculate feature from this point cloud, which is called 3D features or descriptor. Descriptors are more complex and precise signatures of a point or object, and encode a lot of information about the surrounding geometry. Descriptors can be two types local descriptors and global descriptors. Local descriptors are computed for individual points and they do not describe the notion of what an object is, instead they just describe how the local geometry around that point. On the other hand, global descriptors encode object geometry. They are not computed for individual points, rather than for a whole cluster that represents an object. Because of this, a extra preprocessing step (segmentation) is required, in order to retrieve possible objects candidates from the point cloud.
+Global descriptors are generally used for object recognition, classification, geometric analysis such as shape and pose estimation.
+\section{Convolution Neural Network}
+\section{Viewpoint Feature Histogram}
+The VFH (Viewpoint Feature Histogram) is a global descriptor. It is derived from the FPFH (First Point Feature Histogram). The VFH consists of two parts: a viewpoint direction component and an extended FPFH component. To calculate the first one, the object's centroid is computed, which is the point that results from averaging the X, Y and Z coordinates of all points. After that, the vector between the viewpoint (the position of the sensor) and the centroid is computed, and normalized. Finally, for all points in the cluster, the angle between their normal and this vector is calculated, and the result is binned into an histogram. The vector is translated to each point when calculating the angle cause it makes the descriptor scale invariant. The viewpoint direction component calculation is shown graphically in figure below.
 
 \begin{figure}[H]
 \centering
@@ -289,21 +293,10 @@ where $u$, $v$, $w$ represent a Darboux frame coordinate system chosen at $p_{i}
 
 
 % By default, the bins are normalized using the total number of points in the cluster. This makes the VFH descriptor invariant to scale.The PCL implementation computes an additional fifth histogram with the distances of the cluster points to the centroid (the Shape Distribution Component, SDC), increading the size of the output descriptor from 263 to 308. The SDC is taken from the CVFH descriptor that we will see in the next section, and makes the result more robust.
-\section{Theoretical Background }
-In this thesis work we are working with image data and find out the best classification algorithm, which classifies the data in the most precisely. As to work with the whole image is very costly, so we use algorithm to find the pixel points or features in the image, which can represent the corresponding image perfectly. Deep learning algorithms are very efficient and precise to describe the image features. Therefore, in our work we use convolution nural network (CNN) and visual geometric group (VGG16) as our features. For point cloud or 3D image, we use view point feature histogram and cluster viewpoint feature histogram algorithms. For classification there are a lots of algorithms available in Machine learning. Reviewing the literature, we are come up with the support vector machine (svm), random forest(RF), gradient boosting (GBT) and K-nearest neighbor algorithms. The descriptions about the algorithm and how these work are given bellow; 
 
 
-\section{shape based object recognition}
 
-\section{Feature}
-When we process images, we can not work with hole image due to high computational cost. Instead of this, we find out some points by applying some characteristics using different algorithm in the image. These characteristics of the point is called feature, which can help us to differentiate one point from another point in image. We can tell a feature is optimal, if it satisfied the following criteria:
-\\
-\\
-1.It must be robust to transformations: rigid transformations (the ones that do not change the distance between points) like translations and rotations must not affect the feature. Even if we play with the cloud a bit beforehand, there should be no difference.
-\\\\It must be robust to noise: measurement errors that cause noise should not change the feature estimation much.
-\\\\ It must be resolution invariant: if sampled with different density (like after performing downsampling), the result must be identical or similar.
-\subsection{Convolution Neural Network}
-\subsection{Visual geometric group}
+
 
 
 \chapter{Learning Algorithm}
@@ -453,9 +446,8 @@ Now we illustrate how KNN algorithm works with the following figure. We have plo
 In the first case, suppose that we choose $K = 5$. Then KNN will first recognize the five observations that are closest to the blue rectangle. This neighborhood is shown as a circle of orange color. It consists of two green points and three red points. So the resulting estimated probabilities for the red class is 3/5 and for the green class is 2/5. Hence KNN will predict that the blue rectangle belongs to the red class.
 \\\\ In the second case, assume that we choose $K = 9$. Then algorithm first identifies the nine observations that are closest to the blue rectangle. This time neighborhood is displayed as a circle of purple color. It has six green points and three 3 red points. Therefore, the resulting estimated probabilities for the red class is 3/5 and for the green class is 6/5. Hence KNN will predict that the blue rectangle belongs to the green class. To avoid the tie condition, the value of $K$ should be chosen as odd integer number.
 
-\chapter{Dataset and Evaluation Method}
-\section{Result Evaluation Terms}
-\subsection{Classification evaluation method}
+\chapter{Result Evaluation Metrics}
+\section{Classification Evaluation Method}
 \textbf{Confusion matrix:}
 A confusion matrix has information about actual and predicted class labels done by a
 model. The data in the matrix are commonly used to evaluate performance of such model.
@@ -513,7 +505,7 @@ worst.
 \caption{A basic ROC graph showing five discrete classifiers.}
 \end{figure}
 
-\subsection{Cross Validation}
+\section{Cross Validation}
 Cross validation is a method for evaluating predictive models. It is better than residuals.
 There is no indication about how well the model will predict for new unseen data in
 residuals.This problem can be overcome by not using entire data set when training a
